@@ -27,6 +27,7 @@ print(Norm_of_matrix)
 ```
 
 # 2-Norm of a Matrix
+```python
 '''
 Program to find 2-norm of a matrix.
 Developed by: DARSHAN S 
@@ -37,10 +38,10 @@ mat = np.array(eval(input()))
 ans = np.linalg.norm(mat,2)
 Norm_of_matrix = "{:.2f}".format(ans)
 print(Norm_of_matrix)
-
+```
 
 # Infinity Norm of a Matrix
-
+```python
 '''
 register number: 212222100010
 Name: DARSHAN S 
@@ -50,7 +51,6 @@ mat = np.array(eval(input()))
 ans = np.linalg.norm(mat,np.inf)
 Norm_of_matrix = "{:.2f}".format(ans)
 print(Norm_of_matrix)
-```
 ```
 ## Output:
 ### 1-Norm of a Matrix
